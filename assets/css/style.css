@@ -194,6 +194,6 @@ input[type=submit]:hover {
   }
 
   header {
-    position: fixed;
+    position: static;
   }
   
