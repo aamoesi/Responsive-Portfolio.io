@@ -193,7 +193,7 @@ input[type=submit]:hover {
     }
   }
 
-  div.header {
+  header {
     position: fixed;
     top: 0;
     left: 0;
