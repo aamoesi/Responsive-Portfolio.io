@@ -1,0 +1,192 @@
+
+
+body{
+  background-image: url("email-pattern.png");
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  border-color: #dddddd;
+  background-size: auto;
+  max-width: 960px;
+  margin: auto;
+}
+
+.nav{
+  list-style-type: none;
+  text-align: right;
+  display:block;
+  background-color: #ffffff;
+  text-decoration: none;
+  border-color: #cccccc;
+  margin: 0;
+  padding: 0;}
+
+  .nav li{
+    display: inline;
+  }
+
+  .nav a{
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .active{
+    background-color: #4aaaa5;
+    color: white;
+
+  }
+
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #4aaaa5;
+
+}
+
+.image1{
+ float: left;
+}
+
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 2px;
+} 
+
+
+.firstparagraph{
+  
+  border: #dddddd;
+  width: 960px;
+  color: #777777;
+  line-height: 30px;
+}
+
+.secondparagraph{
+ 
+  border: #dddddd;
+  width: 960px;
+  color: #777777;
+  line-height: 30px;
+}
+
+.Portfolioimage1{
+  float: left;
+  margin: 25px;
+  padding: 5px;
+}
+
+.Portfolioimage2{
+  float: left;
+  margin: 25px;
+  padding: 5px;
+  width: 66%;
+  
+}
+
+.Portfolioimage3{
+  float: left;
+  margin: 25px;
+  padding: 5px;
+
+}
+
+.Portfolioimage4{
+  float: left;
+  margin: 25px;
+  padding: 5px;
+  width: 66%;
+}
+
+.Portfolioimage5{
+  float: left;
+  margin: 25px;
+  padding: 5px;
+  width: 100%;
+}
+
+.container_portfolio{
+  clear: both;
+  overflow: auto;
+}
+
+.footer{
+  position: fixed;
+  border-color: #45a049;
+  left: 0%;
+  border-radius: 15px;
+  text-align: center;
+  bottom: 0%;
+  width: 100%;
+  background-color: #666666;
+  color: #777777;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 5px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  background-color: #4aaaa5;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 960px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: lavender;
+  }
+
+  @media screen and (max-width: 640px) {
+    body {
+      background-color: yellow;
+    }
